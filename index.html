@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Grazia Margarella - Portfolio</title>
+    <link rel="icon" type="image/png" href="images/img.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Spartan:wght@300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="name" class="container">
+        <h1 style="font-size: 5em">Grazia Margarella</h1>
+    </div>
+    <div id="separator"></div>
+    <div class="container">
+    <h1>Progetti universitari</h1>
+    <h2>Università degli Studi di Salerno<br>Dipartimento di Informatica</h2>
+    <p><i>2018-in corso</i></p>
+    <p id="nota"><i>Piccola nota: i progetti non ancora valutati non sono disponibili su GitHub.</i></p>
+        <div class="project-container">
+            <article>
+                <h3>Progettazione di un DB relazionale</h3>
+                <h4>Corso: Basi di Dati</h4>
+                <p>In questo progetto ho sviluppato un database relativo ad una biblioteca in MySQL.</p>
+                <p>Per interagire con la base dati ho utilizzato uno script in Java collegato tramite JDBC.</p> 
+                <a href="https://github.com/graziamargarella/progetto-DB">Link a GitHub</a>
+            </article>
+            <article>
+                <h3>Sviluppo di un e-commerce di libri</h3>
+                <h4>Corso: Tecnologie Software per il Web</h4>
+                <p>Partendo dalla base dati del progetto di DB ho sviluppato un servizio di e-commerce per acquistare i libri.</p> 
+                <p>Il back-end del sito è sviluppato in Java utilizzando l'architettura MVC.</p> 
+                <p>Oltre alle JSP, lato front-end è stato utilizzato JavaScript, JQuery e AJAX.</p> 
+                <a href="#nota">Link a GitHub</a>
+            </article>
+            <article>
+                <h3>Sviluppo di un e-commerce di libri </h3>
+                <h4>Corso: Ingegneria del Software</h4>
+                <p>Con un gruppo di altri studenti abbiamo espanso il progetto di e-commerce precedentemente descritto con una nuova veste grafica.</p>
+                <p>Il focus di questo progetto era l'attenzione alla documentazione e allo sviluppo da un punto di vista ingegneristico.</p>  
+                <a href="#nota">Link a GitHub</a>
+            </article>  
+            <article>
+                <h3>Profilazione degli utenti e consigli personalizzati</h3>
+                <h4>Corso: Fondamenti di Intelligenza Artificiale</h4>
+                <p>In questo progetto, realizzato basandoci sul progetto di Ingegneria del Software, ho sviluppato un modulo di intelligenza artificiale.</p>
+                <p>Il linguaggio utilizzato è Python, con il supporto di librerie come sklearn, pandas, seaborn, matplotlib e numpy.</p>  
+                <p>L'algoritmo utilizzato è di clustering, in particolare il k-means.</p>  
+                <p>Il tutto è consultabile tramite Jupyter Notebook.</p>  
+                <a href="https://github.com/graziamargarella/Progetto_FIA_Dodo.net">Link a GitHub</a>
+            </article>  
+            <article>
+                <h3>Progettazione e sviluppo di interfaccia per un progetto di Citizen Science</h3>
+                <h4>Corso: Interazione Uomo Macchina</h4>
+                <p>Nell'ambito del corso di Interazione Uomo Macchina, con un gruppo di colleghi, abbiamo progettato un sistema usabile per la raccolta di dati e la segnalazione di rifiuti nelle zone marine della Campania.</p> 
+                <p>L'approccio è stato guidato dagli utenti reali per cui la UX è stata calibrata al meglio.</p> 
+                <a href="#nota" disabled>Link a GitHub</a>
+            </article>  
+        </div>
+    </div>
+    <div id="separator"></div>
+    <div class="container">
+    <h1>Progetti personali</h1>
+        <div class="project-container">
+            <article>
+                <h3>Sentiment Analysis con l'API di Twitter</h3>
+                <p>Ancora in work in progress. L'idea è quella di utilizzare un classificatore (probabilmente di tipo Random Forest) per determinare qual è l'intenzione dietro un testo scritto. Per rendere il testo comprensibile al modello di ML sto eseguendo vari test per permettere una mappatura partendo anche dalle parole più comuni.</p> 
+                <p>Il dataset è stato costruito partendo dall'API di Twitter.</p>
+                <a href="#" disabled>Link a GitHub</a>
+            </article>
+            <article>
+                <h3>Applicazione Web Meteo</h3> 
+                <p>Questo è stato uno dei miei primi progetti personali, siate clementi vi prego.</p> 
+                <p>Ho sperimentato nel creare una web app in grado di dare le previsioni meteo utilizzando l'API di OpenWeatherMap.</p> 
+                <p>Per il front-end mi sono affidata principalmente a Bootstrap.</p> 
+                <a href="https://github.com/graziamargarella/previsioni-meteo">Link a GitHub</a>
+            </article>
+            <article>
+                <h3>Verso l'infinito... e oltre!</h3>
+                <p>Sono solo all'inizio di questo lungo percorso, ma la voglia di imparare mi ispira ogni giorno a migliorarmi.</p> 
+                <p>Restate sintonizzati.</p> 
+                <a href="https://github.com/graziamargarella">Link al profilo GitHub</a>
+            </article>
+ 
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

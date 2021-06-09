@@ -1,0 +1,44 @@
+:root {
+    --grey-color: #ececec;
+    --blue-color: #3a41e4;
+    --transition-time: 0.5s;
+}
+
+body{
+    background-color:var(--grey-color);
+    font-family: 'Space Mono', monospace;
+    color:var(--blue-color);
+    letter-spacing:-1px;
+}
+
+h1, h2{
+    font-family: 'Spartan', sans-serif;
+}
+
+.container{
+    margin: 10%;
+    text-align: center;
+}
+
+#separator{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid var(--blue-color);
+    background-color: var(--blue-color)
+}
+
+#name{
+    margin-bottom: 1%;
+}
+
+.card{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
